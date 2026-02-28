@@ -1,0 +1,83 @@
+body {
+        background-color: rgb(2, 2, 60);
+        color: white;
+      }
+
+      h2 {
+        max-width: 80%;
+        margin:auto;
+        padding-top: 8px;
+      }
+      table {
+        border-collapse: collapse;
+        border-top: 1px solid rgb(100, 100, 100);
+        border-bottom: 1px solid rgb(100, 100, 100);
+        font-family: " b";
+        letter-spacing: 1px;
+        max-width: 80%;
+        margin: auto;
+      }
+
+      caption {
+        padding: 10px;
+        font-weight: bold;
+      }
+
+      th {
+        padding: 30px 0;
+      }
+
+      td {
+        border-top: 1px solid rgb(100, 100, 100);
+        padding: 8px 10px;
+      }
+
+      .name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .name-item-img {
+        max-width: 18%;
+      }
+
+      .name-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-right: 50px;
+      }
+
+      .name button {
+        background-color: rgb(2, 2, 60);
+        color: blue;
+        border: 2px solid blue;
+        border-radius: 16px;
+        padding: 2px 4px;
+      }
+
+      .price,
+      .one-hr,
+      .twenty-four-hrs,
+      .seven-days,
+      .market-cap,
+      .twenty-four-hrs-volume,
+      .circulating-supply {
+        text-align: center;
+      }
+
+      .one-hr,
+      .seven-days,
+      .twenty-four-hrs, #usdt {
+        color: rgb(16, 212, 16);
+      }
+
+      .price,
+      .seven-days {
+        color: red;
+      }
+
+      .coin-chart {
+        width: 20vw;
+      }
